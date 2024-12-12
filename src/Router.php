@@ -12,6 +12,7 @@
 namespace Pyramid;
 
 use Pyramid\Request;
+use Pyramid\Core\Kernel;
 
 class Router {
 	protected static $routes = [];
